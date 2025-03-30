@@ -8,9 +8,8 @@
         <iframe
           src="https://www.youtube.com/embed/_8fySo77IxM"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen>
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+          referrerpolicy="strict-origin-when-cross-origin">
         </iframe>
       </div>
     </div>
@@ -21,9 +20,8 @@
         <iframe
           src="https://www.youtube.com/embed/IaS2guZumxI"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen>
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+          referrerpolicy="strict-origin-when-cross-origin">
         </iframe>
       </div>
     </div>

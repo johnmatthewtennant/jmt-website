@@ -5,9 +5,8 @@
       <iframe
         :src="videoUrl"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen>
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+        referrerpolicy="strict-origin-when-cross-origin">
       </iframe>
     </div>
   </section>
