@@ -40,6 +40,8 @@ jobs:
         run: npm install # Installs project dependencies
       - name: Build
         run: npm run build # Runs your build script (parcel build)
+      - name: Copy CNAME file
+        run: cp CNAME dist/
       - name: Setup Pages
         uses: actions/configure-pages@v4 # Configures GitHub Pages settings for the workflow
       - name: Upload artifact
