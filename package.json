@@ -1,0 +1,17 @@
+{
+  "name": "vue-parcel-profile",
+  "version": "1.0.0",
+  "description": "A simple Vue app with a profile component, built with Parcel.",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-vue": "^2.12.0",
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "vue": "^3.4.27"
+  }
+}

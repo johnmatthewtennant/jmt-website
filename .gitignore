@@ -1,4 +1,22 @@
 # Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Parcel cache and build output
+.parcel-cache/
+dist/
+
+# macOS
+.DS_Store
+
+# Optional: ignore environment variables file
+.env
+.env.*
+!.env.example
+
+# Logs
 logs
 *.log
 npm-debug.log*
@@ -37,8 +55,7 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
-node_modules/
+# node-waf configuration
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -67,11 +84,6 @@ web_modules/
 
 # Yarn Integrity file
 .yarn-integrity
-
-# dotenv environment variables file
-.env
-.env.*
-!.env.example
 
 # parcel cache
 .parcel-cache/
