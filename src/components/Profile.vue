@@ -7,7 +7,7 @@
 <script setup>
 import { ref } from 'vue';
 // Use url: prefix to ensure Parcel resolves the path correctly
-import profileImage from 'url:../../assets/profile.jpg';
+import profileImage from 'url:../../assets/profile-cropped.jpg';
 
 const profileImageUrl = ref(profileImage);
 </script>
