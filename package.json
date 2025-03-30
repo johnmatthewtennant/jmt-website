@@ -4,8 +4,8 @@
   "description": "A simple Vue app with a profile component, built with Parcel.",
   "source": "index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build --public-url /jmt-website/"
+    "start": "parcel --public-url / -p 8080",
+    "build": "parcel build --public-url /"
   },
   "devDependencies": {
     "@parcel/transformer-vue": "^2.12.0",
