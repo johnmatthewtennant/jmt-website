@@ -27,6 +27,22 @@
         hr.style2 {
             border-top: 3px double #8c8b8b;
         }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -108,12 +124,20 @@
         <p class="w3-xlarge w3-google">Music Visualizers</p>
 
         <p class="w3-large w3-google">Cymatic Music Visualizer</p>
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/_8fySo77IxM">
-        </iframe>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/_8fySo77IxM" frameborder="0" allowfullscreen></iframe>
+        </div>
 
         <p class="w3-large w3-google">XY Oscilloscope Music Visualizer</p>
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/IaS2guZumxI">
-        </iframe>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/IaS2guZumxI" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <!-- New video section -->
+        <p class="w3-xlarge w3-google">Guitar Playing</p>
+        <div class="video-container">
+            <iframe src="https://drive.google.com/file/d/1XTiliO_mM5HvAxzLtERnqfuC5Us-FZ3p/preview" allow="autoplay"></iframe>
+        </div>
 
     </section>
     <center>
